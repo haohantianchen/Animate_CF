@@ -1,0 +1,1 @@
+nohup torchrun --nnodes=1 --nproc_per_node=4 train.py --config /raid/lurenjie/AnimateDiff/configs/training/v1/training_try.yaml > /raid/lurenjie/AnimateDiff/nohup/train_web10m_val_motion.out 2>&1 &
